@@ -1,0 +1,7 @@
+.triangle-green {
+  width: 0;
+  height: 0;
+  margin-top: 40px;
+  border-bottom: 30px solid #2a7c49;
+  border-right: 100vw solid transparent;
+}

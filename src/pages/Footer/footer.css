@@ -1,0 +1,15 @@
+.footer {
+  background-color: #2a7c49;
+  font-family: "Montserrat";
+  color: #fdd60f;
+}
+
+.footer .line-1 {
+  margin: 0px 20px 0px 20px;
+  padding-top: 40px;
+}
+
+.footer .line-2 {
+  margin: 0px 20px 0px 20px;
+  padding-bottom: 40px;
+}

@@ -1,0 +1,31 @@
+.header {
+  background-color: #2a7c49;
+  height: 50px;
+  position: sticky;
+}
+
+.header h3 {
+  position: absolute;
+  left: 20px;
+  top: 0px;
+  color: whitesmoke;
+  margin-top: 5px;
+  font-size: 30px;
+  font-family: "Lobster", cursive;
+}
+
+.top-right {
+  width: 0;
+  height: 0;
+  border-top: 150px solid #fdd60f;
+  border-left: 150px solid transparent;
+  position: absolute;
+  right: 0;
+}
+
+.falafel-icon {
+  width: 50px;
+  position: absolute;
+  top: -150px;
+  right: 10px;
+}

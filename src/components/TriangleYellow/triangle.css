@@ -1,0 +1,7 @@
+.triangle-yellow {
+  width: 0;
+  height: 0;
+  border-bottom: 30px solid #fdd60f;
+  border-right: 100vw solid transparent;
+  background-color: #2a7c49;
+}

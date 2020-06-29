@@ -1,0 +1,28 @@
+.food-img {
+  width: 200px;
+}
+
+.menu-item {
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.menu-item-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #2a7c49;
+}
+.menu-item-top h3 {
+  margin-bottom: 0px;
+}
+
+.menu-item-top p {
+  margin-bottom: 0px;
+}
+
+.ingredients {
+  margin-top: 5px;
+  font-family: "Montserrat";
+}

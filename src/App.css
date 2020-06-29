@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+
+  font-family: "Roboto", sans-serif;
+}
+
+.menu-header {
+  margin-bottom: 0px;
+  color: #fdd60f;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .App {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: solid black;
+  }
+
+  .hero-image {
+    width: 80vw;
+    height: 70vh;
+    object-fit: cover;
+  }
+
+  .triangle-yellow {
+    display: none;
+  }
+
+  .triangle-green {
+    display: none;
+  }
+
+  .about {
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+
+  .about p {
+    font-family: "Montserrat";
+    margin: 20px 100px 50px 100px;
+
+    padding-bottom: 100px;
+  }
+
+  .about h1 {
+    padding: 100px 100px 0px 100px;
+    margin-top: 300px;
+    text-align: center;
+  }
+}
